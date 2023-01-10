@@ -8,7 +8,6 @@ You need to make your own env in app.env file. Or just rename example.app.env to
 
 ```bash
 git clone https://github.com/cnugroho11/url_shortener.git
-go mod tidy
 docker compose up -d
 go run main.go
 ```
